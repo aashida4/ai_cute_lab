@@ -1,0 +1,21 @@
+[project]
+name = "cute-ai-workshop"
+version = "0.1.0"
+description = "Human-in-the-loop image classification workshop"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2",
+    "pillow>=10",
+    "scikit-learn>=1.7",
+    "ipywidgets>=8",
+    "matplotlib>=3.9",
+    "jupyterlab>=4",
+    "ipykernel>=6",
+]
+
+[project.optional-dependencies]
+prepare = ["torch>=2.4", "torchvision>=0.19", "tqdm>=4"]
+
+[tool.uv]
+package = false

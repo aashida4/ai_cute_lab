@@ -1,0 +1,9 @@
+numpy
+pandas
+Pillow
+scikit-learn>=1.7
+ipywidgets
+matplotlib
+tqdm
+torch
+torchvision

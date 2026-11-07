@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+.venv-local/
+.ipynb_checkpoints/
+data/raw/
+data/workshop/
+*.zip
+
+# Local participant answers, evaluation results, and backups
+participant_progress*.json
+participant_progress*.json.*
+my_cute_ai_*.csv
+
+# Local scratch files and credentials
+.DS_Store
+Untitled*.ipynb
+.env
+.env.*
+!.env.example
